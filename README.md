@@ -27,10 +27,13 @@ true .
 ```
 
 ## Sample Questions
-Can Alice view ProjectA
 
+```
+?- % Can Alice view ProjectA
 ?- projectL(view, projectA, bob).
 true.
 
+?- % Can Smith view ProjectA
 ?- projectL(view, projectA, smith).
 false.
+```
