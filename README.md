@@ -25,3 +25,12 @@ false.
 All tests passed!
 true .
 ```
+
+## Sample Questions
+Can Alice view ProjectA
+
+?- projectL(view, projectA, bob).
+true.
+
+?- projectL(view, projectA, smith).
+false.
